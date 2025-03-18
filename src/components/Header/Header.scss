@@ -1,0 +1,33 @@
+header {
+    background-color: #00af9c;
+    padding: 1rem;
+    color: white;
+    @media (max-width: 600px) {
+      padding: 0.5rem;
+    }
+  
+    .Countainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 500px;
+      margin: 0 auto;
+      width: 100%;
+      @media (max-width: 600px) {
+        max-width: 100%;
+        padding: 0 0.5rem;
+      }
+  
+      h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        @media (max-width: 600px) {
+          font-size: 1.25rem;
+        }
+      }
+  
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
