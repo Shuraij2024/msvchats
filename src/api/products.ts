@@ -1,9 +1,9 @@
 import axios from "axios";
 
 // Replace with your machine’s IP
-const API_URL = "http://192.168.1.64:3000/messages"; // Was "http://localhost:3000/messages"
+// const API_URL = "http://192.168.1.64:3000/messages";
 
-// const API_URL = "http://localhost:3000/messages";
+const API_URL = "http://localhost:3000/messages";
 
 export interface Message {
   id: number;
